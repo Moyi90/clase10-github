@@ -1,20 +1,59 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgba(255, 0, 0, 0.336);
-    font-size:45px;
+/* header */
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+
+ul {
+    list-style: none;
 }
 
-h1:hover{
+header .navBar {
+    background-color: rgba(20, 172, 53, 0.855);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 150px
+}
+
+header .navBar .listPrin {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .navBar .listPrin .itemList a {
+    color: rgb(247, 244, 244);
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+header .navBar .listPrin .itemList a:hover {
+    color: rgb(19, 17, 17);
+}
+
+img {
+    max-width: 200px;
+    max-height: 100px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 0, 0, 0.336);
+    font-size: 45px;
+}
+
+h1:hover {
     color: rgba(255, 255, 0, 0.377);
     font-weight: bold;
     text-decoration: underline;
     transition: .3s;
     transform: skew(-45deg);
 }
-
